@@ -1,0 +1,16 @@
+.box {
+	width: 20%;
+	height:20%;
+	background-color:#c3b7f3 ;
+	display: flex;
+	transition-property: all;
+	transition-duration: 1s;
+	float:left;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.box:hover {
+	transform: rotate(180deg) scale(-5, -5);
+	background-color: #6f5bbd;
+}
